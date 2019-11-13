@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="utf-8" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" media="screen" type="text/css" title="Mon style" href="assets/css/style.css" />
+    <title>Exercice 4</title>
+</head>
+<body>
+    <form>
+        <div class="container col-lg-5 bg-secondary text-white">
+            <h1>Du formulaire à la présentation textuelle</h1>
+            <div class="form-group">
+                <label for="name" class="col-lg-5 col-form-label ">Nom :</label>
+                    <div class="col-lg-7">
+                        <input type="text" class="form-control" id="name" placeholder="Forestier">
+                    </div>
+            </div>
+            <div class="form-group">
+                <label for="firstName" class="col-lg-5 col-form-label">Prénom :</label>
+                    <div class="col-lg-7">
+                        <input type="text" class="form-control" id="firstName" placeholder="Justine">
+                    </div>
+            </div>
+            <div class="form-group">
+                <label for="birthDate" class="col-lg-5 col-form-label">Date de naissance :</label>
+                    <div class="col-lg-7">
+                        <input type="date" class="form-control" id="birthDate">
+                    </div>
+            </div>
+            <div class="form-group">
+                <label for="birthPlace" class="col-lg-5 col-form-label">Lieu de naissance</label>
+                    <div class="col-lg-7 mb-2">
+                        <input type="text" class="form-control" id="birthPlace" placeholder="Paris">
+                    </div>
+            </div>        
+            <div class="form-group">
+                <label for="job" class="col-lg-5 col-form-label">Emploi</label>
+                    <div class="col-lg-7 mb-2">
+                        <input type="text" class="form-control" id="job" placeholder="Développeur Web">
+                    </div>
+            </div>      
+            <div class="form-group">
+                <label for="society" class="col-lg-5 col-form-label">Société</label>
+                     <div class="col-lg-7 mb-2">
+                        <input type="text" class="form-control" id="society" placeholder="CGI">
+                     </div>
+            </div>
+            <div class="form-group">
+                <div class="col-lg-5">
+                    <button type="submit" class="btn btn-primary mb-2">Générer</button>
+                </div>
+            </div>
+            <div class ="result">
+                <p id="pres"></p>
+            </div>
+        </div>
+    </form>
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
